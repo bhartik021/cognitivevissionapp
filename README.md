@@ -1,6 +1,32 @@
 # Cognitive Vision App
 
+![Azure Cognitive Services Logo](https://learn.microsoft.com/en-us/windows/images/azure-cognitive-services.png)
+
+## Introduction
+
 This application demonstrates how to use Azure's Computer Vision API with .NET to analyze images and extract descriptions.
+
+### Features
+
+- Analyze images using Azure's Computer Vision API.
+- Extract descriptions from images with confidence levels
+
+## Introduction to .NET
+.NET is a framework developed by Microsoft for building various types of applications, including web, desktop, mobile, cloud, and IoT applications. It supports multiple programming languages like C#, F#, and Visual Basic.
+
+### Key Concepts in .NET:
+- **C# Language:** Primary language used with .NET for building applications.
+- **Common Language Runtime (CLR):** Executes .NET programs and manages memory, security, and other system services.
+- **ASP.NET:** Framework for building web applications and APIs using .NET.
+- **Entity Framework:** Object-relational mapper (ORM) that simplifies data access in .NET applications.
+
+## Introduction to Azure AI
+Azure AI provides a set of services and tools for building AI-powered applications on Microsoft Azure cloud platform. These services include:
+
+### Key Azure AI Services:
+- **Azure Cognitive Services:** Pre-built AI models that enable capabilities like vision, speech, language understanding, and decision-making.
+- **Azure Machine Learning:** Service for building, training, and deploying machine learning models at scale.
+- **Azure Bot Service:** Platform for creating intelligent bots that can interact with users across multiple channels.
 
 ## Prerequisites
 
