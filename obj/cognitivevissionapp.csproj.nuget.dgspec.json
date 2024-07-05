@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/bhartik021/Desktop/cognitivevissionapp/cognitivevissionapp.csproj": {}
+  },
+  "projects": {
+    "/Users/bhartik021/Desktop/cognitivevissionapp/cognitivevissionapp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/bhartik021/Desktop/cognitivevissionapp/cognitivevissionapp.csproj",
+        "projectName": "cognitivevissionapp",
+        "projectPath": "/Users/bhartik021/Desktop/cognitivevissionapp/cognitivevissionapp.csproj",
+        "packagesPath": "/Users/bhartik021/.nuget/packages/",
+        "outputPath": "/Users/bhartik021/Desktop/cognitivevissionapp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/bhartik021/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
