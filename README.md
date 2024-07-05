@@ -95,16 +95,16 @@ class Program
     {
         try
         {
-            var client = new ComputerVisionClient(new ApiKeyServiceClientCredentials(subscriptionKey))
+            ComputerVisionClient client = new ComputerVisionClient(new ApiKeyServiceClientCredentials(subscriptionKey))
             {
                 Endpoint = endpoint
             };
 
-            // Known working image URL
+            // Example image URL
             string imageUrl = "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg";
 
             var features = new List<VisualFeatureTypes?> { VisualFeatureTypes.Description };
-            var result = await client.AnalyzeImageAsync(imageUrl, features);
+            ImageAnalysis result = await client.AnalyzeImageAsync(imageUrl, features);
 
             Console.WriteLine($"Request ID: {result.RequestId}");
             Console.WriteLine($"Metadata: {result.Metadata}");
@@ -128,6 +128,7 @@ class Program
         }
     }
 }
+
 ```
 
 ## Troubleshooting
