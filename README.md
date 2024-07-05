@@ -1,9 +1,5 @@
 # Cognitive Vision App
 
-![Azure Cognitive Services Logo](https://learn.microsoft.com/en-us/windows/images/azure-cognitive-services.png)
-
-## Introduction
-
 This application demonstrates how to use Azure's Computer Vision API with .NET to analyze images and extract descriptions.
 
 ### Features
