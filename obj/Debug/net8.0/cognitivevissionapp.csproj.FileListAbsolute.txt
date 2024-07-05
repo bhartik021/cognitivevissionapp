@@ -18,3 +18,4 @@
 /Users/bhartik021/Desktop/cognitivevissionapp/bin/Debug/net8.0/Newtonsoft.Json.dll
 /Users/bhartik021/Desktop/cognitivevissionapp/obj/Debug/net8.0/cognitivevissionapp.csproj.AssemblyReference.cache
 /Users/bhartik021/Desktop/cognitivevissionapp/obj/Debug/net8.0/cognitiv.13DC89D5.Up2Date
+/Users/bhartik021/Desktop/cognitivevissionapp/obj/Debug/net8.0/cognitivevissionapp.sourcelink.json

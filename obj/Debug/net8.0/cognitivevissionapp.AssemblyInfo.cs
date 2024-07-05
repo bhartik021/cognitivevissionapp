@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cognitivevissionapp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70b8c8130aa775bb4b5a96f43b27ab0d79064421")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d657c572d84c7cfadca29eb17ec2c60190021274")]
 [assembly: System.Reflection.AssemblyProductAttribute("cognitivevissionapp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cognitivevissionapp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
