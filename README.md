@@ -75,7 +75,7 @@ class Program
             };
 
             // Known working image URL
-            string imageUrl = "https://upload.wikimedia.org/wikipedia/commons/0/02/Mountain_view.jpg";
+            string imageUrl = "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg";
 
             var features = new List<VisualFeatureTypes?> { VisualFeatureTypes.Description };
             var result = await client.AnalyzeImageAsync(imageUrl, features);
